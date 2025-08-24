@@ -75,6 +75,7 @@ body {
 
 /*---------- meals Cards Grid System ----------*/
 .meals-container {
+  overflow: hidden;
   width: 100%;
   display: grid;
   gap: 20px;
@@ -148,5 +149,6 @@ body {
     margin-bottom: 40px;
   }
 }
+
 
 
