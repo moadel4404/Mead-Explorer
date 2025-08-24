@@ -18,6 +18,13 @@ body {
   margin: 10px 10%;
 }
 
+.meal-card:hover img {
+  position: relative;
+  width: 110%;
+  left: -5%;
+  opacity: 0.9;
+}
+
 /*------ header Styling ------*/
 .header {
   display: flex;
@@ -141,4 +148,5 @@ body {
     margin-bottom: 40px;
   }
 }
+
 
