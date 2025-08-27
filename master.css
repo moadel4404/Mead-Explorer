@@ -101,11 +101,10 @@ body {
   justify-content: flex-start;
 }
 
-.meal-card:hover img {
+.meal-card:hover {
   position: relative;
-  width: 110%;
-  left: -5%;
-  opacity: 0.9;
+  top: -5px;
+  box-shadow: 0 8px 5px 1px rgb(224 224 224);
 }
 
 .meal-card img {
@@ -157,6 +156,7 @@ body {
     margin-bottom: 40px;
   }
 }
+
 
 
 
